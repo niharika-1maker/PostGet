@@ -52,3 +52,4 @@ class EdgeTTSAdapter(TTSAdapter):
                     )
                 )
         return result
+

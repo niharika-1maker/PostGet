@@ -82,3 +82,4 @@ async def update_brand_profile(
     updated_profile = BrandProfileResponse(**existing_data)
     _PROFILES_STORE[ws_id] = updated_profile
     return updated_profile
+

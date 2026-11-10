@@ -106,3 +106,4 @@ class MockVideoAdapter(VideoProviderAdapter):
         with open(output_path, "wb") as f:
             f.write(ftyp)
             f.write(mdat)
+

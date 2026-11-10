@@ -219,3 +219,4 @@ CREATE POLICY "Workspace members can view audit events"
 CREATE POLICY "Workspace members can create audit records"
     ON public.audit_events FOR INSERT
     WITH CHECK (public.is_workspace_member(workspace_id));
+

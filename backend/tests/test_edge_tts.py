@@ -19,3 +19,4 @@ def test_edge_tts_synthesize_audio(tmp_path):
     assert result.cost_usd == 0.0
     assert os.path.exists(test_audio_path)
     assert os.path.getsize(test_audio_path) > 1000  # Valid MP3 file with real audio data
+

@@ -78,3 +78,4 @@ export const MobileDevicePreview: React.FC<MobileDevicePreviewProps> = ({
     </div>
   );
 };
+

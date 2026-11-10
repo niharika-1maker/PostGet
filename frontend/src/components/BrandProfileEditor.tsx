@@ -234,3 +234,4 @@ export const BrandProfileEditor: React.FC = () => {
     </form>
   );
 };
+

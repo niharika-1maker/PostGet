@@ -50,3 +50,4 @@ class VideoProviderAdapter(ABC):
     async def get_job_status(self, job_id: str) -> VideoClipResult:
         """Query status of a durable video generation job."""
         pass
+

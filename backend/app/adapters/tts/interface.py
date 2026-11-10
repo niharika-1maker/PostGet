@@ -33,3 +33,4 @@ class TTSAdapter(ABC):
     async def list_voices(self, locale_prefix: str = "en") -> List[VoiceInfo]:
         """List available voices matching the locale."""
         pass
+
